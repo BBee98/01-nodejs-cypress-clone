@@ -1,0 +1,25 @@
+{
+  "name": "01-nodejs-cypress-clon",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Bluebee98",
+  "type": "commonjs",
+  "imports": {
+    "#core/*": "./src/core/*.js",
+    "#constants": "./src/core/constants.js",
+    "#templates": "./src/ui/templates/*.html"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "serve": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "jest": "^30.4.1"
+  }
+}
