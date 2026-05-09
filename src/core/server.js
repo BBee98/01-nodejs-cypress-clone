@@ -7,7 +7,7 @@ function Create(){
 
 
 async function Serve(request, response){
-    response.writeHead(200, { 'Content-type': 'application/json;utf-8;text/plain'});
+    response.writeHead(200, { 'Content-type': 'text/html'});
     const templatesDir = await GetEnv({
         argName: "--envDir",
         envName: "TEMPLATE_URL"

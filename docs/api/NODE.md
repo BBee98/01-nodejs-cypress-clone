@@ -73,3 +73,11 @@ const desiredArgument = arguments[2];
 
 El resultado de ``desiredArgument`` será `.`.
 
+
+## Servir ficheros `html`
+
+Cuando definimos la cabecera, debemos especificar que el ``Content-type`` es `text/html`
+
+```javascript
+    response.writeHead(200, { 'Content-type': 'text/html'});
+```
