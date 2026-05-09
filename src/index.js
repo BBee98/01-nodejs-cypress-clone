@@ -1,3 +1,6 @@
 const serve = require("#core/server");
 
-serve.Create()
+(async function Init(){
+    const server = serve.Create()
+    server.listen(4800);
+})()

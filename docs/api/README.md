@@ -2,6 +2,8 @@
 
 ## Iniciar el servidor
 
+### Preparar scripts en package.json
+
 Es necesario configurar el script en el `package.json` que nos permita esto:
 
 ```json
@@ -36,3 +38,4 @@ Y se utiliza de la siguiente manera:
 `` 
 const constants = require("#constants");
 ``
+
